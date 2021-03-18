@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<meta charset="utf-8">
-    		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-			<title>Actividad Html</title>
-
+			 <meta charset="utf-8">
+    	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			 <title>Actividad Html</title>
+       <link rel="stylesheet" type="text/css" href="css.css">
 		</head>
+
 		<body>
-          <audio controls autoplay>
-            <source src="mp3.ogg" type="audio/ogg">
-            <source src="mp3/flor.mp3.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
 
-      <div style="width: 1000px">
-			<picture >
-					<img src="https://as1.ftcdn.net/jpg/03/64/38/92/500_F_364389260_uAl2gCZM60kRiAN2WgMOgAlsQRvxPrb9.jpg" style="max-width:100%;width:1000px;height:200px;">
-			</picture>
-      <header>
-				  <h1 style="color:red;">Daniel David Gerardino Rodriguez</h1>
-					<h2>Fecha de Nacimiento: <strong>06/08/1995</strong></h2>
-      </header>
-			    <aside>
-         		<h2>Presentacion</h2>
-         		<div>
-         			<p> soy una persona alegre, me gusta bailar y hacer deporte fisico o cual me ayuda a esta con mucho entusiamos, uno de mis deseos de pequeño era jugar en un equipo de futbol como era jugar en la seleccion colombia pero por problemas de tiempo y dinero no se llevo a cabo ese sueñor pero ahora mi sueño es ser mejor que mis padres y poder darles lo que ellos con mucho esfuerzo me han dado hasta ahora, me gustaria llevarlos a conocer muchos lugar de colombia ya que nosotros poco podemos salir por no tener un medio de transporte que nos supla para esos deseos familiares, aun que no es malo del todo por que conocemos ciertas partes de cucuta, como pueblos entre los que son salazar, lourdes, ocaña, chinacota entre otro.  </p>
-              <p> Soy estudiante de la Universidad Francisco de Paula Santander, curso 8 semestre de la carrera Ingenieria de Sistemas, la cual me enorgullece por que es una de las carreras me mayor impuslo en estos tiempos, pero lo mas complicado era el no tener las herramientas necesarias para poder ejecutar mi estudio como se requiere, al final de todo puedo decir que me he favorecido mucho en haber todo una buena decicion de elejir esta carrera por que me he proyectado ejerciendo todos los conocimientos obtenidos para poder emprender en mi propia empresa. </p>	
-         		</div>
-     		  </aside>
+        <div id="container">
+            <div>
+            <audio controls autoplay>
+              <source src="mp3.ogg" type="audio/ogg">
+              <source src="mp3/flor.mp3.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            </div>
 
-        		<article id= "Hobbies">                
-              		<h3>Hobbies</h3>
-              		<ul>
-              			<li>Primero: <strong>Jugar Futbol</strong></li>
-              			<li>Segundo: <strong>Ver Peliculas</strong></li>
-              			<li>Tercero: <strong>Bailar</strong></li>
-              			<li>Cuarto: <strong>Andar Cicla</strong></li>
-              		</ul>
-            </article>
+            
+        			<div>
+                <picture >
+        					<img src="https://as1.ftcdn.net/jpg/03/64/38/92/500_F_364389260_uAl2gCZM60kRiAN2WgMOgAlsQRvxPrb9.jpg">
+        			  </picture>
+              </div>
 
-            <article id= "Películas y Series">                
-              		<h3>Películas y Series Favoritas</h3>
-              		<ul>
-              			<li>Primero: <strong>Los vengadores / Pelicula</strong></li>
-              			<li>Segundo: <strong>Elseñor de los Anillos / Pelicula</strong></li>
-              			<li>Tercero: <strong>Arrow / Serie</strong></li>
-              			<li>Cuarto: <strong>The God Doctor / Serie</strong></li>
-              		</ul>
-            </article>
+              <nav>
+              <div>
+                  <ul>
+                    <button onclick="location.href='index.html'">Inicio</button>
+                    <button onclick="location.href='contacto.html'">Contacto</button>
+                    <button onclick="location.href='#'">Fotos</button>
+                    <button onclick="location.href='#'">Anexos</button>
+                  </ul>
+              </div>
+            </nav>
 
-            <article id= "Materias Favoritas">                
+            <div class="clearfix"></div>
+
+            <header>
+      				  <h1>Daniel David Gerardino Rodriguez</h1>
+      					<h2>Fecha de Nacimiento: <strong>06/08/1995</strong></h2>
+            </header>
+
+          <section id="content">
+			        <article>
+         		      <h2>Presentacion</h2>
+         		      <div>
+               			<p> soy una persona alegre, me gusta bailar y hacer deporte fisico o cual me ayuda a esta con mucho entusiamos, uno de mis deseos de pequeño era jugar en un equipo de futbol como era jugar en la seleccion colombia pero por problemas de tiempo y dinero no se llevo a cabo ese sueñor pero ahora mi sueño es ser mejor que mis padres y poder darles lo que ellos con mucho esfuerzo me han dado hasta ahora, me gustaria llevarlos a conocer muchos lugar de colombia ya que nosotros poco podemos salir por no tener un medio de transporte que nos supla para esos deseos familiares, aun que no es malo del todo por que conocemos ciertas partes de cucuta, como pueblos entre los que son salazar, lourdes, ocaña, chinacota entre otro.  </p>
+                    <p> Soy estudiante de la Universidad Francisco de Paula Santander, curso 8 semestre de la carrera Ingenieria de Sistemas, la cual me enorgullece por que es una de las carreras me mayor impuslo en estos tiempos, pero lo mas complicado era el no tener las herramientas necesarias para poder ejecutar mi estudio como se requiere, al final de todo puedo decir que me he favorecido mucho en haber todo una buena decicion de elejir esta carrera por que me he proyectado ejerciendo todos los conocimientos obtenidos para poder emprender en mi propia empresa. </p>	
+             		  </div>
+         		  </article>
+
+          		<article id= "Hobbies">                
+                	<h3>Hobbies</h3>
+                		<ul>
+                  			<li>Primero: <strong>Jugar Futbol</strong></li>
+                  			<li>Segundo: <strong>Ver Peliculas</strong></li>
+                  			<li>Tercero: <strong>Bailar</strong></li>
+                  			<li>Cuarto: <strong>Andar Cicla</strong></li>
+                		</ul>
+              </article>
+
+              <article id= "Películas">                
+                	<h3>Películas y Series Favoritas</h3>
+                		<ul>
+                  			<li>Primero: <strong>Los vengadores / Pelicula</strong></li>
+                  			<li>Segundo: <strong>Elseñor de los Anillos / Pelicula</strong></li>
+                  			<li>Tercero: <strong>Arrow / Serie</strong></li>
+                  			<li>Cuarto: <strong>The God Doctor / Serie</strong></li>
+                		</ul>
+              </article>
+
+              <article id= "Materias">                
                   <h3>Materias Favoritas</h3>
                       <table class="table">
                       <thead>
@@ -93,15 +116,15 @@
                           </tr>
                       </tbody>
                       </table>
-                </article>  
-                <br>          
-                    <button onclick="location.href='contacto.html'">Contacto</button>
-                </br>
-            </div>
-              	<footer>
-              		<div>
-              			<p>Curriculum Daniel - 2021</p>
-              		</div>
-              	</footer> 
+              </article>
+              <br>
+                      <button onclick="location.href='contacto.html'">Contacto</button>
+              <br>
+                      <footer>
+                          <p>Curriculum Daniel -Programacion Web 2021</p>
+                      </footer>  
+          </section>
+        </div>  
 		</body>
+
 	</html>

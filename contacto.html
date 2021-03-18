@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Formulario de Contancto</title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Formulario de Contancto</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+	<body>
+
+		<div id="container">
+            <div>
+            <audio controls autoplay>
+              <source src="mp3.ogg" type="audio/ogg">
+              <source src="mp3/flor.mp3.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            </div>
+
+   			<div>
+                <picture >
+        			<img src="https://as1.ftcdn.net/jpg/03/64/38/92/500_F_364389260_uAl2gCZM60kRiAN2WgMOgAlsQRvxPrb9.jpg">
+        		</picture>
+            </div>
+			<nav>
+              <div>
+                  <ul>
+                    <button onclick="location.href='index.html'">Inicio</button>
+                    <button onclick="location.href='contacto.html'">Contacto</button>
+                    <button onclick="location.href='#'">Fotos</button>
+                    <button onclick="location.href='#'">Anexos</button>
+                  </ul>
+              </div>
+            </nav>
+
+            <div class="clearfix"></div>
+			<br>
+    <section id="content"><br>
 	<form action="https://api.web3forms.com/submit" method="POST">
 
 		<input type="hidden" name="apikey" value="ec21e550-89a8-48f4-b409-70c49ebfeb02">
@@ -29,5 +61,10 @@
 		<button>Cancelar</button>
 
 	</form>
+
+	<footer><p>Curriculum Daniel - 2021</p></footer>
+
+	</section>
+	</div>
 </body>
 </html>
